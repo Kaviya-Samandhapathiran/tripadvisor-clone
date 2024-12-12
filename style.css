@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trip Sans";
+    margin-top: 18px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar_sec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+.navbar_sec1 img {
+    width: 40px;
+}
+
+.navbar_sec2 {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar_sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar_sec3__desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+
+.line {
+    border-left: solid rgba(128, 128, 128, 0.226) 1px;
+    height: 25px;
+}
+
+.signin {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 13px;
+}
+
+.headings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 15%;
+}
+
+.heading__desc1,
+.heading__desc2,
+.heading__desc3,
+.heading__desc4,
+.heading__desc5,
+.heading__desc6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+    padding-bottom: 10px;
+
+}
+
+.heading__desc1 {
+    border-bottom: solid black 2px;
+}
+
+.heading__desc1 p,
+.heading__desc2 p,
+.heading__desc3 p,
+.heading__desc4 p,
+.heading__desc5 p,
+.heading__desc6 p {
+    padding-left: 4px;
+}
+
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: solid rgba(128, 128, 128, 0.26) 1px;
+    width: 70%;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.26);
+}
+
+.search__sec1 input {
+    font-size: 16px;
+    border: none;
+    padding-left: 10px;
+    width: 250px;
+}
+
+.search__desc {
+    background-color: #33E0A1;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 4px;
+}
+
+.front-image {
+    position: relative;
+}
+
+.front-image img {
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 23px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.front-image__desc {
+    position: absolute;
+    bottom: 7px;
+    color: white;
+    padding: 4%;
+    font-size: larger;
+    gap: 4px;
+}
+
+.front-image__desc button {
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    margin-left: 5px;
+    margin-top: 2%;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+}
+
+.section1 {
+    margin-top: 80px;
+}
+
+.section1 p {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.section1__images {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.sec1__img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    filter: brightness(90%);
+    filter: drop-shadow(2%);
+}
+
+.sec1__img h2 {
+    position: absolute;
+    bottom: 4px;
+    padding-left: 15px;
+    color: white;
+}
+
+.section2 {
+    margin-top: 6%;
+}
+
+.section2__desc,
+.section3__desc,
+.section4__desc {
+    margin-top: 1.5%;
+}
+
+.section2__images,
+.madras_section,
+.tour-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 0.5%;
+
+}
+
+.sec2__img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.sec2__img h4 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.sec__img--desc {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.section3,
+.section4 {
+    margin-top: 10%;
+}
+
+.sec3__img img,
+.sec4__img img {
+    border-radius: 10px;
+}
+
+.sec3__img h4,
+.sec4__img h4 {
+    font-size: large;
+    line-height: 25px;
+}
+
+.img,
+.img3 {
+    margin-top: 20px;
+}
+
+.img1,
+.img2 {
+    margin-top: 40px;
+}
+
+.more-to-explore{
+    background-color: #F2F1EC;
+    margin-top: 40px;
+}
+
+.explore-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+
+.more-to-explore h3{
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+.eimg img{
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+}
