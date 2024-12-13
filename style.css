@@ -171,15 +171,19 @@ body {
     text-align: left;
 }
 
-.section1__images {
+.section1__images,
+.section6__images,
+.section7__images {
     display: flex;
     justify-content: space-between;
-    gap: 25px;
-    margin-top: 15px;
+    gap: 20px;
+    margin-top: 17px;
     position: relative;
 }
 
-.sec1__img img {
+.sec1__img img,
+.sec6__img img,
+.sec7__img img {
     border-radius: 10px;
     width: 100%;
     height: 100%;
@@ -200,13 +204,15 @@ body {
 
 .section2__desc,
 .section3__desc,
-.section4__desc {
+.section4__desc,
+.section5__desc {
     margin-top: 1.5%;
 }
 
 .section2__images,
 .madras_section,
-.tour-image {
+.tour-image,
+.experience-image {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -232,17 +238,21 @@ body {
 }
 
 .section3,
-.section4 {
+.section4,
+.section5 {
     margin-top: 10%;
 }
 
 .sec3__img img,
-.sec4__img img {
+.sec4__img img,
+.sec5__img img {
     border-radius: 10px;
 }
 
+
 .sec3__img h4,
-.sec4__img h4 {
+.sec4__img h4,
+.sec5__img h4 {
     font-size: large;
     line-height: 25px;
 }
@@ -257,26 +267,229 @@ body {
     margin-top: 40px;
 }
 
-.more-to-explore{
-    background-color: #F2F1EC;
-    margin-top: 40px;
+.bestseller {
+    border: solid black 1px;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 4px;
 }
 
-.explore-image{
+.more-to-explore {
+    background-color: #F2F1EC;
+    height: 500px;
+    width: 1350px;
+    padding-left: 0;
+    margin-left: -9.5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.explore-image {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    gap:20px;
+    gap: 5px;
+    padding-left: 8%;
+    margin-top: 25px;
+    position: relative;
+
 }
 
-.more-to-explore h3{
+.more-to-explore h2 {
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 8%;
+    position: relative;
 
 }
 
-.eimg img{
-    width:100%;
-    height: 100%;
-    border-radius: 20px;
+.eimg img {
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.explore-desc {
+    margin-top: 27px;
+    position: relative;
+}
+
+.explore-desc_1,
+.explore-desc_2,
+.explore-desc_3 {
+    width: 25%;
+    position: absolute;
+    text-align: center;
+}
+
+.explore-desc_1 {
+    left: 110px;
+}
+
+.explore-desc_2 {
+    left: 540px;
+}
+
+.explore-desc_3 {
+    left: 960px;
+}
+
+.section6 {
+    margin-top: -40px;
+}
+
+.sec6__img h1,
+.sec7__img h1 {
+    width: 21%;
+    position: absolute;
+    bottom: 14px;
+    padding-left: 15px;
+    color: white;
+    font-size: 28px;
+
+}
+
+.section6 h3 {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 24px;
+}
+
+.section7 {
+    margin-top: 70px;
+}
+
+.section7 p {
+    margin-top: 20px;
+}
+
+.sponsor {
+    margin-top: 30px;
+    background-color: #F2ECF9;
+    display: flex;
+    height: 540px;
+}
+
+.sponsor__sec1 img {
+    width: 535px;
+    height: 500px;
+    margin: 20px;
+}
+
+.sponsor__sec2 {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.sponsor__sec2--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.sponsor__sec2--title img {
+    width: 24px;
+    height: 24px;
+}
+
+.sponsor__sec2--desc h1 {
+    margin-top: 15px;
+}
+
+.sponsor__sec2--desc p {
+    margin-top: 7px;
+    width: 60%;
+    text-align: center;
+    margin-left: 120px;
+    gap: 9px;
+}
+
+
+.sponsor__sec2--desc button {
+    margin-top: 17px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+.traveller {
+    background-color: #FFF7E1;
+    display: flex;
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: 70px;
+    overflow: hidden;
+    position: relative;
+}
+
+.traveller-desc {
+    margin-left: 8%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.traveller-desc h1 {
+    font-size: 50px;
+    width: 50%;
+}
+
+.traveller-desc h2 {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: lighter;
+    width: 40%;
+}
+
+.traveller-desc button {
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 15px;
+}
+
+.traveller-img {
+    margin-left: -30%;
+    transform: rotate(-38deg);
+    margin-top: 90px;
+    margin-bottom: -200px;
+    z-index: 2;
+}
+
+.traveller-img img {
+    width: 130%;
+    height: 50%;
+    margin-top: 80px;
+    border-radius: 300px;
+}
+
+.circle1 {
+    background-color: #F2B203;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    right:30%;
+    margin-top: -10px;
+    z-index: 1;
+}
+
+.circle2 {
+    background-color: #34E0A1;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left:75%;
+    top: 70%;
+    z-index: 1;
 }
