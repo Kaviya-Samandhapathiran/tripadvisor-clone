@@ -7,7 +7,7 @@
     <link rel="icon" href="./Images/tripadvisor-icon.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://db.onlinewebfonts.com/c/076abc8ba1bb38a0713dec3b63b880e4?family=Trip+Sans" rel="stylesheet">
-    <title>Tripadvisor: Over a billion reviews & contributions for hotels, attractions, ....</title>
+    <title>Tripadvisor: Over a billion reviews & contributions for hotels, attractions, Restaurants and more</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
@@ -21,10 +21,10 @@
             <h2>Tripadvisor</h2>
         </div>
         <div class="navbar_sec2">
-            <h4>Discover</h4>
-            <h4>Trips</h4>
-            <h4>Review</h4>
-            <h4>Forums</h4>
+            <h4 class="navbar_sec2--desc">Discover</h4>
+            <h4 class="navbar_sec2--desc">Trips</h4>
+            <h4 class="navbar_sec2--desc">Review</h4>
+            <h4 class="forum">Forums</h4>
         </div>
         <div class="navbar_sec3">
             <div class="navbar_sec3__desc">
@@ -34,8 +34,17 @@
             </div>
             <h4 class="signin">Sign in</h4>
         </div>
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="profile">
+            <i class="fa-solid fa-user"></i>
+        </div>
     </div>
 
+    <div class="description">
+        <h1>Where to?</h1>
+    </div>
     <div class="headings">
         <div class="heading__desc1">
             <i class="fa-solid fa-house"></i>
@@ -107,7 +116,7 @@
         <div class="section2__images">
             <div class="sec2__img">
                 <img src="./Images/img 6.jpg">
-                <h4>By Ashlyn S</h4>
+                <h4>By <span style="text-decoration: underline;">Ashlyn S</span></h4>
                 <h4>3 family-friendly days in Rome</h4>
                 <div class="sec__img--desc">
                     <p>❤️</p>
@@ -116,7 +125,7 @@
             </div>
             <div class="sec2__img">
                 <img src="./Images/img 7.jpg">
-                <h4>By Eileen Ivette</h4>
+                <h4>By <span style="text-decoration: underline;">Eileen Ivette</span></h4>
                 <h4>The ultimate 'workcation' in Mexico City</h4>
                 <div class="sec__img--desc">
                     <p>❤️</p>
@@ -125,7 +134,7 @@
             </div>
             <div class="sec2__img">
                 <img src="./Images/img 8.jpg">
-                <h4>By Two Bad Tourists</h4>
+                <h4>By <span style="text-decoration: underline;">Two Bad Tourists</span></h4>
                 <h4>Exploring LGBTQ+-friendly Barcelona</h4>
                 <div class="sec__img--desc">
                     <p>❤️</p>
@@ -224,13 +233,13 @@
     <div class="more-to-explore">
         <h2>More to explore</h2>
         <div class="explore-image">
-            <div class="eimg">
+            <div class="moretoexploreimg">
                 <img src="./Images/more to explore 1.jpg">
             </div>
-            <div class="eimg">
+            <div class="moretoexploreimg">
                 <img src="./Images/more to explore 2.jpg">
             </div>
-            <div class="eimg">
+            <div class="moretoexploreimg">
                 <img src="./Images/more to explore 3.jpg">
             </div>
         </div>
@@ -291,7 +300,7 @@
         <div class="sponsor__sec2">
             <div class="sponsor__sec2--title">
                 <img src="./Images/tripadvisor-icon.webp">
-                <p>Sponsored by Wanderlab</p>
+                <p>Sponsored by <span style="text-decoration: underline;cursor: pointer;">Wanderlab</span></p>
             </div>
             <div class="sponsor__sec2--desc">
                 <h1>Watch The Wanderer</h1>
@@ -314,6 +323,97 @@
         </div>
         <div class="circle2">
         </div>
+    </div>
+    <div class="footer">
+        <div class="footer-desc">
+            <div class="footer__sec1">
+                <div class="footer__sec1--desc">
+                    <div class="footer__sec1--desc1">
+                        <h3>About Tripadvisor</h3>
+                        <p>About us</p>
+                        <p>Press</p>
+                        <p>Resources and policies</p>
+                        <p>Careers</p>
+                        <p>Trust & safety</p>
+                        <p>Contact us</p>
+                        <p>Accessibility Statement</p>
+                    </div>
+                    <div class="footer__sec1--desc2">
+                        <h3>Explore</h3>
+                        <p>Write a review</p>
+                        <p>Add a place</p>
+                        <p>Join</p>
+                        <p>Traveller's Choice</p>
+                        <p>GreenLeaders</p>
+                        <p>Help Centre</p>
+                        <p>Travel Articles</p>
+                    </div>
+                    <div class="footer__sec1--desc2">
+                        <h3>Do Business with us</h3>
+                        <p>Owners & DMO/CVB</p>
+                        <p>Business Advantage</p>
+                        <p>Sponsored Placements</p>
+                        <p>Access our Content API</p>
+                        <h3>Get The App</h3>
+                        <p>iPhone App</p>
+                        <p>Android App</p>
+                    </div>
+                </div>
+                <div class="footer__sec1--foot">
+                    <div class="footer__sec1--foot1">
+                        <img src="./Images/tripadvisor-icon.webp">
+                        <div class="footcontent">
+                            <p class="rights"> &copy;2024 Tripadvisor LLC All rights reserved</p>
+                            <div class="listOfContents">
+                                <p>Terms of Use</p>
+                                <p>Privacy and Cookies Statement</p>
+                                <p>Cookie consent</p>
+                                <p>Site Map</p>
+                                <p>How the site works</p>
+                                <p>Contact us</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer__sec2">
+                <div class="footer__sec2--desc">
+                    <h3>Tripadvisor Sites</h3>
+                    <p>Book tours and attraction tickets on Viator</p>
+                </div>
+                <div class="footer__sec2--drop">
+                    <select>
+                        <option>₹ INR</option>
+                        <option>$ U.S.Dollars</option>
+                        <option>€ Euros</option>
+                    </select>
+                    <select>
+                        <option>India</option>
+                        <option>United States</option>
+                        <option>Europe</option>
+                    </select>
+                </div>
+                <div class="footer__sec2--apps">
+                    <i class="fa-brands fa-facebook fa-xl"></i>
+                    <i class="fa-brands fa-x-twitter fa-xl"></i>
+                    <i class="fa-brands fa-pinterest fa-xl"></i>
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                </div>
+            </div>
+        </div>
+        <p class="footer-end1">This is the version of our website addressed to speakers of English in India. If you are
+            a
+            resident of another country or region, please select the appropriate version of Tripadvisor for
+            your country or region in the drop-down menu.<button>more</button></p>
+        <p class="footer-end2">Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites
+            and
+            applications. Listed prices may require a stay of a particular length or have blackout dates,
+            qualifications or other applicable restrictions. Tripadvisor LLC is not responsible for any
+            content on external web sites that are not owned or operated by Tripadvisor .</p>
+        <p class="footer-end2">Tripadvisor LLC is not a booking agent or tour operator. When you book with one of our
+            partners,
+            please be sure to check their site for a full disclosure of all applicable fees</p>
     </div>
 </body>
 
