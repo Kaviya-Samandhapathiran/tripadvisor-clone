@@ -735,6 +735,8 @@ body {
 
     body {
         width: 350px;
+        margin-left: 30px;
+        margin-right: -40px;
     }
 
     .navbar_sec2,
@@ -757,7 +759,7 @@ body {
     }
 
     .navbar_sec1 {
-        margin-left: 13%;
+        margin-left: 11%;
     }
 
     .search {
@@ -851,7 +853,8 @@ body {
 
     .traveller {
         display: block;
-        margin-right: -94px;
+        margin-right: -121px;
+        margin-left: -64px;
     }
 
     .traveller h1,
@@ -882,7 +885,8 @@ body {
     }
 
     .footer {
-        margin-right: -94px;
+        margin-right: -118px;
+        margin-left: -61px;
     }
 
     .footer__sec1--desc p,
@@ -895,7 +899,7 @@ body {
     }
 
     .footer__sec2--desc {
-        margin-left: -120%;
+        margin-left: -145%;
         margin-top: 58%;
     }
 
@@ -919,17 +923,17 @@ body {
     .listOfContents {
         display: flex;
         flex-wrap: wrap;
-        width: 200%;
+        width: 180%;
     }
 
     .menu {
         display: flex;
-        margin-left: -145%;
+        margin-left: -140%;
     }
 
     .profile {
         display: flex;
-        padding-right: 15px;
+        padding-right: 45px;
     }
 
 
